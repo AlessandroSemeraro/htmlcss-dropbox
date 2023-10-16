@@ -25,7 +25,7 @@ ul{
 }
 
 .container-jumbo{
-    width: 65%;
+    width: 55%;
     height: 700px;
     border: 1px solid black;
 }
@@ -74,7 +74,7 @@ ul{
 }
 
 #title-header{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
