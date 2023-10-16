@@ -23,10 +23,20 @@ ul{
     background-color: #B4D0E7;
 }
 
+.section-main{
+    padding-top: 8rem;
+}
+
 /*CONTAINER*/
 
 .container-jumbo{
     width: 55%;
+}
+
+.container-main{
+    width: 50%;
+    height: 1000px;            /*ELIMINA DOPO*/
+    border: 1px solid black;
 }
 
 .box-bottomheader{
@@ -43,6 +53,16 @@ ul{
     padding-bottom: 0.6rem    ;
 }
 
+.radio-box{                      /*________!!!_________*/
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.border-programs-title{
+    border: 1px solid #E1E1E3;
+    padding: 0.5rem 4.7rem;
+}
+
 /*FLEX*/
 
 .flex-row{
@@ -52,6 +72,12 @@ ul{
 .flex-j-center{
     display: flex;
     justify-content: center;
+}
+
+.flex-ja-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-sa-center{
@@ -104,6 +130,16 @@ ul{
     font-size: 2.5rem;
 }
 
+#font-title-first-section{
+    font-size: 2rem;
+}
+
+.font-programs-main{
+    font-size: 0.7rem;
+}
+
+
+
 /*SPACE*/
 
 .row-header-items{
@@ -121,6 +157,15 @@ ul{
     margin-bottom: 1.5rem;
 }
 
+.li-space{
+    margin-right: 2.5rem;
+}
+
+.font-inlineblock{
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
 /*POSITION*/
 .jumbo-absolute{
     position: absolute;
@@ -131,3 +176,7 @@ ul{
 .jumbo-size{
     width: 70%;
 }
+
+
+
+
