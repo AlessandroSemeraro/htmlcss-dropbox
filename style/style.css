@@ -60,9 +60,22 @@ ul{
 
 .border-programs-title{
     border: 1px solid #E1E1E3;
-    padding: 0.5rem 4.7rem;
+    padding: 0.5rem 6rem;
 }
 
+.border-column{
+    border: 1px solid #E1E1E3;
+    
+}
+
+.space-column{
+    padding: 1.5rem ;
+}
+
+
+.price-space{
+    margin-top: 0.5rem;
+}
 /*FLEX*/
 
 .flex-row{
@@ -138,6 +151,19 @@ ul{
     font-size: 0.7rem;
 }
 
+.price-fontweight{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.font-typeofplan{
+    font-size: 1.2rem;
+}
+
+.period-typeofplan{
+    font-size: 0.8rem;
+    color: #878BAC;
+}
 
 
 /*SPACE*/
@@ -164,6 +190,26 @@ ul{
 .font-inlineblock{
     display: inline-block;
     margin-right: 0.3rem;
+}
+
+.
+
+.price-space{
+    margin-top: 0.8rem;
+}
+
+.period-typeofplan-space{
+    margin-top: 0.3rem;
+}
+
+.options-type-of-plan{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.three-columns-calc{
+    width:calc((100% - 8rem) / 3);
+    column-gap: 1rem;
 }
 
 /*POSITION*/
