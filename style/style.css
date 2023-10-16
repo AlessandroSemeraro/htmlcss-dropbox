@@ -40,6 +40,7 @@ ul{
 
 .arrow-box{
     padding-top: 1.70rem ;
+    padding-bottom: 0.6rem    ;
 }
 
 /*FLEX*/
@@ -87,7 +88,7 @@ ul{
 
 
 
-/*FONT SIZE-WEIGHT*/
+/*FONT/SYMBOL SIZE-WEIGHT*/
 
 .font-regular{
     font-size: 0.85rem;
@@ -100,7 +101,7 @@ ul{
 
 .arrow-down{
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 /*SPACE*/
