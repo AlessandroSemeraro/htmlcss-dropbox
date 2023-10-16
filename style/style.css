@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/*SECTIONS*/
+/*SECTIONS/TAG*/
 
 body{
     font-family: 'Fredoka', sans-serif;
@@ -16,6 +16,15 @@ body{
 
 ul{
     list-style-type: none;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+hr{
+    width: 3rem;
+    height: 1px ;
 }
 
 .bottom-header{
@@ -36,7 +45,7 @@ ul{
 .container-main{
     width: 50%;
     height: 1000px;            /*ELIMINA DOPO*/
-    border: 1px solid black;
+    
 }
 
 .box-bottomheader{
@@ -124,10 +133,14 @@ ul{
   text-decoration: none;
 }
 
+.button-plan{
+
+    padding: 0.4rem 3.5rem;
+}
 
 
 
-/*FONT/SYMBOL SIZE-WEIGHT*/
+/*FONT/SYMBOL SIZE-WEIGHT-COLOR*/
 
 .font-regular{
     font-size: 0.85rem;
@@ -165,6 +178,10 @@ ul{
     color: #878BAC;
 }
 
+.blue-check{
+    color: #0061FF;
+    font-weight: 1000;
+}
 
 /*SPACE*/
 
@@ -187,12 +204,22 @@ ul{
     margin-right: 2.5rem;
 }
 
+.li-space-top{
+    margin-top: 1rem;
+}
+
+.check-space-right{
+    margin-right: 0.5rem;
+}
+
 .font-inlineblock{
     display: inline-block;
     margin-right: 0.3rem;
 }
 
-.
+.space-column-plan-elements{
+    margin-bottom: 1rem;
+}
 
 .price-space{
     margin-top: 0.8rem;
@@ -207,9 +234,12 @@ ul{
     padding-bottom: 2rem;
 }
 
-.three-columns-calc{
-    width:calc((100% - 8rem) / 3);
-    column-gap: 1rem;
+.three-columns-calc{;
+    column-gap: 2rem;
+}
+
+.space-link{
+    margin-top: 2rem;
 }
 
 /*POSITION*/
@@ -223,6 +253,9 @@ ul{
     width: 70%;
 }
 
+.hr-space{
+    padding: 2.5rem 0rem;
+}
 
 
 
