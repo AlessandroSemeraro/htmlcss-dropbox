@@ -24,10 +24,28 @@ ul{
     background-color: #B4D0E7;
 }
 
+/*CONTAINER*/
+
 .container-jumbo{
     width: 55%;
-    height: 700px;
+    height: 1000px;
     border: 1px solid black;
+}
+
+.box-bottomheader{
+    height: 70%;
+    border: 1px solid black;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.box-bottomheader-left{
+    width: 35%;
+    height: 300px;
+}
+
+.arrow-box{
+    padding-top: 1.70rem ;
 }
 
 /*FLEX*/
@@ -53,6 +71,12 @@ ul{
     align-items: center;
 }
 
+.flex-col-fs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 /*BUTTON*/
 
 .button{
@@ -61,16 +85,18 @@ ul{
   border: 2px solid #0061FF;
   color: #fff;
   justify-content: center;
-  padding: 0.2rem 0.5rem;
+  padding: 0.40rem 0.60rem;
   text-align: center;
   text-decoration: none;
 }
 
 
-/*FONT*/
+
+
+/*FONT SIZE-WEIGHT*/
 
 .font-regular{
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 #title-header{
@@ -78,6 +104,35 @@ ul{
     font-weight: 900;
 }
 
+.arrow-down{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+/*SPACE*/
+
 .row-header-items{
     padding:1.5rem 1.3rem;
+}
+.row-header-item-button-header{
+    padding: 1.2rem 1.3rem;
+}
+
+.img-lineheight-header{
+    padding: 1.3rem 1.3rem;
+}
+
+.bottomheader-items-space{
+    margin-bottom: 1.5rem;
+}
+
+/*POSITION*/
+.jumbo-absolute{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.jumbo-size{
+    width: 70%;
 }
