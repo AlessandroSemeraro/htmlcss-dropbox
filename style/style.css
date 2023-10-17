@@ -33,6 +33,11 @@ div.plan-section > p {
 
 
 
+.wrap-hr{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
 ul > li{
     margin-top: 1rem;
 }
@@ -65,10 +70,15 @@ h3{
     font-size: 0.9rem;
 }
 
+h4{
+    font-size: 0.7rem;
+}
+
 hr{
     width: 2.75rem;
     height: 1px ;
-    color: rgba(rgb(180, 180, 180), 0.5);
+    border:1px solid ;
+    border-color: lightgray;
 }
 
 
@@ -237,7 +247,7 @@ hr{
 }
 
 .font-small{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 #title-header{
@@ -354,10 +364,6 @@ hr{
 }
 
 /*POSITION*/
-
-.wrap-hr{
-    padding: 1rem 0rem;
-}
 
 
 
