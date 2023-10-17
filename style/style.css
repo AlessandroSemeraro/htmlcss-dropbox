@@ -7,7 +7,6 @@
 
 /*in lavoro*/
 .section-main{
-   
     height: 1000px;
 }
 
@@ -18,15 +17,37 @@
 
 .column-business-plan{
     width: calc(100% / 3);
-    border: 1px solid black;
+    border: 1px solid rgba(180, 180, 180,0.5);
     height: 700px;
     margin-right: 2rem;
+    
 }
 
 .span-marginleft{
     margin-left: .5rem;
 }
 
+div.plan-section > p {
+    margin-top: 1rem;
+}
+
+
+
+ul > li{
+    margin-top: 1rem;
+}
+
+.margin-plan{
+    margin: 1.5rem
+}
+
+.margin-info-plan{
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.border-bottom-info-plan{
+    border-bottom: 1px solid black;
+}
 /*SECTIONS/TAG*/
 
 body{
@@ -45,8 +66,9 @@ h3{
 }
 
 hr{
-    width: 2rem;
+    width: 2.75rem;
     height: 1px ;
+    color: rgba(rgb(180, 180, 180), 0.5);
 }
 
 
@@ -102,6 +124,11 @@ hr{
     
 }
 
+.button-box{
+    padding-top: 1rem;
+    
+}
+
 .arrow-box{
     padding-top: 1.70rem ;
     padding-bottom: 0.6rem    ;
@@ -124,7 +151,8 @@ hr{
 }
 
 .wrap-title-businessplan{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
+    border-color:  rgba(180, 180, 180,0.5);;
     height: 2rem;
     width: 100%;
 }
@@ -215,6 +243,15 @@ hr{
 #title-header{
     font-size: 4rem;
     font-weight: 900;
+}
+
+.price-font{
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.time-plan-font{
+    color: lightgray;
 }
 
 .font-arrow{
@@ -318,8 +355,8 @@ hr{
 
 /*POSITION*/
 
-.hr-space{
-    padding: 2.2rem 0rem;
+.wrap-hr{
+    padding: 1rem 0rem;
 }
 
 
