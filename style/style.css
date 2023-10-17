@@ -23,6 +23,10 @@
     margin-right: 2rem;
 }
 
+.span-marginleft{
+    margin-left: .5rem;
+}
+
 /*SECTIONS/TAG*/
 
 body{
@@ -118,6 +122,13 @@ hr{
 .price-space{
     margin-top: 0.5rem;
 }
+
+.wrap-title-businessplan{
+    border-bottom: 1px solid black;
+    height: 2rem;
+    width: 100%;
+}
+
 /*FLEX*/
 
 .flex-row{
