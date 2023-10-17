@@ -6,9 +6,6 @@
 }
 
 /*in lavoro*/
-.section-main{
-    height: 1000px;
-}
 
 
 .span-margin-right{
@@ -18,7 +15,7 @@
 .column-business-plan{
     width: calc(100% / 3);
     border: 1px solid rgba(180, 180, 180,0.5);
-    height: 700px;
+    height: 830px;
     margin-right: 2rem;
     
 }
@@ -38,7 +35,11 @@ div.plan-section > p {
     padding-bottom: 1.5rem;
 }
 
-ul > li{
+i{
+    margin-top: 0.1rem;
+}
+
+ul.font-small > li{
     margin-top: 1rem;
 }
 
@@ -107,7 +108,8 @@ hr{
 
 .container-columns{
     width: 100%;
-    height: 700px;
+    height: 900px;
+
 }
 
 .container-main{
@@ -231,11 +233,10 @@ hr{
   justify-content: center;
   padding: 0.40rem 0.60rem;
   text-align: center;
-  text-decoration: none;
 }
 
 .button-plan{
-    padding: 0.4rem 1.5rem;
+    padding: 0.5rem 2.5rem;
 }
 
 
@@ -243,11 +244,11 @@ hr{
 /*FONT/SYMBOL SIZE-WEIGHT-COLOR*/
 
 .font-regular{
-    font-size: 0.85rem;
+    font-size: 0.9rem;
 }
 
 .font-small{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 #title-header{
@@ -353,7 +354,9 @@ hr{
     padding-bottom: 2rem;
 }
 
-
+.li-span{
+    margin-left: 0.4rem;
+}
 
 .space-link{
     margin-top: 2rem;
