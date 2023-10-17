@@ -27,10 +27,6 @@ hr{
     height: 1px ;
 }
 
-.bottom-header{
-    padding-top: 5rem;
-    background-color: #B4D0E7;
-}
 
 .section-main{
     padding-top: 8rem;
@@ -38,24 +34,15 @@ hr{
 
 /*CONTAINER*/
 
-.container-jumbo{
-    width: 55%;
+.jumbotron{
+    background-color: #B4D0E7;
+    height: 500px; /*ELIMINA DOPO*/
 }
 
 .container-main{
-    width: 50%;
-    height: 1000px;            /*ELIMINA DOPO*/
-    
+    max-width: 50%;
 }
 
-.box-bottomheader{
-    margin-top: 3rem;
-    position: relative;
-}
-
-.box-bottomheader-left{
-    width: 35%;
-}
 
 .arrow-box{
     padding-top: 1.70rem ;
@@ -120,6 +107,11 @@ hr{
     align-items: flex-start;
 }
 
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+}
+
 /*BUTTON*/
 
 .button{
@@ -134,7 +126,6 @@ hr{
 }
 
 .button-plan{
-
     padding: 0.4rem 3.5rem;
 }
 
@@ -196,9 +187,7 @@ hr{
     padding: 1.3rem 1.3rem;
 }
 
-.bottomheader-items-space{
-    margin-bottom: 1.5rem;
-}
+
 
 .li-space{
     margin-right: 2.5rem;
@@ -234,7 +223,7 @@ hr{
     padding-bottom: 2rem;
 }
 
-.three-columns-calc{;
+.columns-gap{;
     column-gap: 2rem;
 }
 
@@ -243,15 +232,6 @@ hr{
 }
 
 /*POSITION*/
-.jumbo-absolute{
-    position: absolute;
-    top: 0rem;
-    right: 0rem;
-}
-
-.jumbo-size{
-    width: 70%;
-}
 
 .hr-space{
     padding: 2.5rem 0rem;
