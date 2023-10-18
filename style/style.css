@@ -122,8 +122,7 @@ hr{
 }
 
 .box-right-section-partner{
-    padding-top: 3rem;
-    height: 400px;
+    padding-top: 4rem;
     width: 35%;
 
 }
@@ -274,6 +273,16 @@ hr{
 .space-button{
     padding-left: 3rem;
 }
+
+.button-section-partner{
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    justify-content: center;
+    padding: 0.40rem 0.60rem;
+    text-align: center;
+}
 /*FONT/SYMBOL SIZE-WEIGHT-COLOR*/
 
 .font-regular{
@@ -404,7 +413,7 @@ hr{
 }
 
 .wrap-button{
-    padding-top: 1.5rem;
+    padding-top: 1.75rem;
 }
 
 .title-border-bottom{
