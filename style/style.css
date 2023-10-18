@@ -115,13 +115,14 @@ hr{
 }
 
 footer{
-    padding: 7rem 0 ;
+   padding: 7rem 0 2rem 0;
     background-color: #000000;
     color: white;
 }
 
 .wrap-bottom-footer{
     padding-top: 7rem;
+    padding-bottom: 1rem;
 }
 
 
