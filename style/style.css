@@ -117,6 +117,12 @@ hr{
     padding-top: 6rem;
 }
 
+
+.container-operations{
+    height: 1000px;
+    border: 1px solid magenta;
+}
+
 .box-left-section-partner{
     width: 65%;
 }
@@ -197,6 +203,10 @@ hr{
     display: flex;
 }
 
+.flex-row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .flex-j-center{
     display: flex;
@@ -423,9 +433,11 @@ hr{
     width: 100%;
 }
 
-.section-main-partner{
+.section-main-space{
     padding-top: 7rem;
 }
+
+
 
 .img-cover{
     width: 100%;
