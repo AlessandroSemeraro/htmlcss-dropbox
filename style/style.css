@@ -7,9 +7,12 @@
 
 /*in lavoro*/
 
-
 .span-margin-right{
     margin-right: 2rem;
+}
+
+.container-free-trial{
+    padding: 7rem 0;
 }
 
 .column-business-plan{
@@ -122,6 +125,7 @@ hr{
 }
 
 
+
 .box-left-section-partner{
     width: 65%;
 }
@@ -145,7 +149,9 @@ hr{
     border: 1px solid lightgray;
 }
 
-
+.container-main-info{
+    width: 55%;
+}
 
 .columns{
     display: flex;
@@ -264,6 +270,12 @@ hr{
     flex-wrap: wrap;
 }
 
+.flex-center-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .flex-end{
     display: flex;
     justify-content: flex-end;
@@ -300,6 +312,16 @@ hr{
     color: #000000;
     justify-content: center;
     padding: 0.40rem 0.60rem;
+    text-align: center;
+}
+
+.button-free-trial{
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    justify-content: center;
+    padding: 0.50rem 2rem;
     text-align: center;
 }
 /*FONT/SYMBOL SIZE-WEIGHT-COLOR*/
@@ -341,6 +363,11 @@ hr{
     font-weight: 700;
 }
 
+.font-space{
+    width: 60%;
+    padding-bottom: 3rem;
+}
+
 .font-programs-main{
     font-size: 0.7rem;
 }
@@ -363,6 +390,12 @@ hr{
     color: #0061FF;
     font-weight: 1000;
 }
+
+.font-color-dark-red{
+    color: #61052A;
+    width: 45%;
+}
+
 
 /*SPACE*/
 
@@ -446,6 +479,9 @@ hr{
     padding-top: 7rem;
 }
 
+.section-main-info{
+    padding-top: 6rem;
+}
 
 .img-cover{
     width: 100%;
@@ -463,4 +499,18 @@ hr{
 
 .padding-bottom-tile{
     padding-bottom: 1rem;
+}
+
+.section-main-dropbox-associated{
+   padding-top: 8rem;
+}
+
+.border-prova{
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.free-trial{
+    background-color: #B4D0E7;
 }
