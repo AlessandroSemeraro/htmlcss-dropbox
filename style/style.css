@@ -195,6 +195,17 @@ footer{
     justify-content: center;
 }
 
+.square-calc{
+    width:calc(100vw / 3) ;
+    height:calc(100vw / 3);
+}
+
+.square-client{
+    height: 50%;
+    width: 50%;
+    background-color: red  ;
+}
+
 .column{
     padding-top: 3rem;
 }
@@ -233,6 +244,10 @@ footer{
 
 .price-space{
     margin-top: 0.5rem;
+}
+
+.square-middle-elements-margin-top{
+    margin-top: 2rem;
 }
 
 .wrap-title-businessplan{
@@ -321,10 +336,12 @@ footer{
     display:flex;
     flex-direction:column ;
     justify-content: center;
-    
-
 }
 
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 /*BUTTON*/
 
 .button{
@@ -575,11 +592,6 @@ footer{
    padding-top: 8rem;
 }
 
-.border-prova{
-    height: 500px;
-    background-color: aqua;
-    border: 1px solid black;
-}
 
 .free-trial{
     background-color: #B4D0E7;
@@ -596,3 +608,57 @@ footer{
 .hr-wrap{
      padding-top: 10rem;
 }
+
+.bg-green{
+background-color: #A2D39B;
+}
+
+.bg-dark-red{
+    background-color:#61082B ;
+}
+
+.bg-lightred{
+    background-color:#FF1C1C ;
+}
+
+.bl-lightblue{
+    background-color:#0093CE ;
+}
+
+.bg-red{
+    background-color:#D5001F ;
+}
+
+.bl-blue{
+    background-color:#0D2481 ;
+}
+
+.bg-grayblue{
+    background-color:#B4D0E7 ;
+}
+
+.bg-yellow{
+    background-color:#FFD830 ;
+}
+
+.bg-middle-square{
+    background-color: #F5F5F5;
+}
+
+.img-square-size{
+    width: 50%;
+    filter: invert(1);
+}
+
+.img-middle-square-size{
+    width: 50%;
+}
+
+.middle-square{
+    padding: 2rem;
+}
+
+.hr-width{
+    width: 6rem;
+}
+
