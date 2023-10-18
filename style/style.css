@@ -7,6 +7,32 @@
 
 /*in lavoro*/
 
+.box-questions{
+    padding-top: 3rem;
+    height: 400px;
+}
+
+.wrap-questions{
+    height: calc(100% / 3);
+    border-top:1px solid #000000;
+}
+
+.wrap-questions-bottom{
+    border-bottom:1px solid #000000;
+}
+
+.section-answers{
+    height: 500px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid black;
+}
+
+.container-answers{
+    padding-top: 7rem;
+}
+
 .span-margin-right{
     margin-right: 2rem;
 }
@@ -91,6 +117,9 @@ hr{
     border-color: lightgray;
 }
 
+footer{
+    height: 500px;
+}
 
 /*CONTAINER*/
 
@@ -281,6 +310,14 @@ hr{
     justify-content: flex-end;
 }
 
+.flex-col-j-center{
+    display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    
+
+}
+
 /*BUTTON*/
 
 .button{
@@ -344,6 +381,11 @@ hr{
     font-size: 0.75rem;
 }
 
+.questions-font{
+    font-weight: 900;
+    font-size: 0.85rem;
+}
+
 .time-plan-font{
     color: lightgray;
 }
@@ -396,6 +438,9 @@ hr{
     width: 45%;
 }
 
+.font-arrow-down{
+    font-size: 1rem;
+}
 
 /*SPACE*/
 
@@ -514,3 +559,8 @@ hr{
 .free-trial{
     background-color: #B4D0E7;
 }
+
+.arrow-margin-right{
+    margin-right: 2rem;
+}
+
