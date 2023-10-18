@@ -133,6 +133,11 @@ hr{
 
 }
 
+.box-operations{
+    width: calc(100% / 3);
+    height: 500px;
+    border: 1px magenta solid;
+}
 
 .section-bottom-business{
     padding-top: 2rem;
@@ -203,9 +208,10 @@ hr{
     display: flex;
 }
 
-.flex-row-wrap{
+.flex-row-nowrap-sb{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .flex-j-center{
