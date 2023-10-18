@@ -21,16 +21,13 @@
     border-bottom:1px solid #000000;
 }
 
-.section-answers{
-    height: 500px;
-}
 
 .bottom-border{
     border-bottom: 1px solid black;
 }
 
 .container-answers{
-    padding-top: 7rem;
+    padding: 7rem 0;
 }
 
 .span-margin-right{
@@ -119,6 +116,7 @@ hr{
 
 footer{
     height: 500px;
+    background-color: #000000;
 }
 
 /*CONTAINER*/
